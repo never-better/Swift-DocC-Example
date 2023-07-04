@@ -273,7 +273,7 @@
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_ASSET_PATHS = "\"Electronics-View/Preview Content\"";
 				DEVELOPMENT_TEAM = YK6FBNFSV5;
-				DOCC_HOSTING_BASE_PATH = "https://github.com/never-better/Swift-DocC-Example/";
+				DOCC_HOSTING_BASE_PATH = "https://never-better.github.io/Swift-DocC-Example/";
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
@@ -303,7 +303,7 @@
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_ASSET_PATHS = "\"Electronics-View/Preview Content\"";
 				DEVELOPMENT_TEAM = YK6FBNFSV5;
-				DOCC_HOSTING_BASE_PATH = "https://github.com/never-better/Swift-DocC-Example/";
+				DOCC_HOSTING_BASE_PATH = "https://never-better.github.io/Swift-DocC-Example/";
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
