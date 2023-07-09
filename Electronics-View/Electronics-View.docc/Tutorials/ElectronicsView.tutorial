@@ -1,0 +1,13 @@
+@Tutorials(name: "나만의 Electronics View") {
+    @Intro(title: "Electronics View 튜토리얼") {
+        Electronic View 사용법 알아보자!
+        
+        @Image(source: Apple-Logo.png, alt: "문짝 이미지")
+    }
+    
+    @Chapter(name: "SlothCreator Essentials") {
+        @Image(source: apple-electronics-set.png, alt: "세트 이미지")
+        
+        @TutorialReference(tutorial: "doc:Creating-Electronics-View")
+    }
+}

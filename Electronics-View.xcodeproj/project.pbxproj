@@ -7,18 +7,24 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		14546C9D2A56781F000F9F60 /* Electronics-View.docc in Sources */ = {isa = PBXBuildFile; fileRef = 14546C9C2A56781F000F9F60 /* Electronics-View.docc */; };
 		147CE6C92A54409E00601FE2 /* Electronics_ViewApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 147CE6C82A54409E00601FE2 /* Electronics_ViewApp.swift */; };
 		147CE6CB2A54409E00601FE2 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 147CE6CA2A54409E00601FE2 /* ContentView.swift */; };
 		147CE6CD2A54409F00601FE2 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 147CE6CC2A54409F00601FE2 /* Assets.xcassets */; };
 		147CE6D02A54409F00601FE2 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 147CE6CF2A54409F00601FE2 /* Preview Assets.xcassets */; };
+		147DABC32A554DFA00E33AD9 /* Electronics.swift in Sources */ = {isa = PBXBuildFile; fileRef = 147DABC22A554DFA00E33AD9 /* Electronics.swift */; };
+		14E7B0162A5515AF00469403 /* ElectronicsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 14E7B0152A5515AF00469403 /* ElectronicsView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		14546C9C2A56781F000F9F60 /* Electronics-View.docc */ = {isa = PBXFileReference; lastKnownFileType = folder.documentationcatalog; path = "Electronics-View.docc"; sourceTree = "<group>"; };
 		147CE6C52A54409E00601FE2 /* Electronics-View.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Electronics-View.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		147CE6C82A54409E00601FE2 /* Electronics_ViewApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Electronics_ViewApp.swift; sourceTree = "<group>"; };
 		147CE6CA2A54409E00601FE2 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		147CE6CC2A54409F00601FE2 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		147CE6CF2A54409F00601FE2 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		147DABC22A554DFA00E33AD9 /* Electronics.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Electronics.swift; sourceTree = "<group>"; };
+		14E7B0152A5515AF00469403 /* ElectronicsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ElectronicsView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -53,7 +59,10 @@
 			children = (
 				147CE6C82A54409E00601FE2 /* Electronics_ViewApp.swift */,
 				147CE6CA2A54409E00601FE2 /* ContentView.swift */,
+				14E7B0152A5515AF00469403 /* ElectronicsView.swift */,
+				147DABC22A554DFA00E33AD9 /* Electronics.swift */,
 				147CE6CC2A54409F00601FE2 /* Assets.xcassets */,
+				14546C9C2A56781F000F9F60 /* Electronics-View.docc */,
 				147CE6CE2A54409F00601FE2 /* Preview Content */,
 			);
 			path = "Electronics-View";
@@ -137,8 +146,11 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				14546C9D2A56781F000F9F60 /* Electronics-View.docc in Sources */,
 				147CE6CB2A54409E00601FE2 /* ContentView.swift in Sources */,
 				147CE6C92A54409E00601FE2 /* Electronics_ViewApp.swift in Sources */,
+				14E7B0162A5515AF00469403 /* ElectronicsView.swift in Sources */,
+				147DABC32A554DFA00E33AD9 /* Electronics.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -273,7 +285,7 @@
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_ASSET_PATHS = "\"Electronics-View/Preview Content\"";
 				DEVELOPMENT_TEAM = YK6FBNFSV5;
-				DOCC_HOSTING_BASE_PATH = "https://never-better.github.io/Swift-DocC-Example/";
+				DOCC_HOSTING_BASE_PATH = "Swift-DocC-Example";
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
@@ -303,7 +315,7 @@
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_ASSET_PATHS = "\"Electronics-View/Preview Content\"";
 				DEVELOPMENT_TEAM = YK6FBNFSV5;
-				DOCC_HOSTING_BASE_PATH = "https://never-better.github.io/Swift-DocC-Example/";
+				DOCC_HOSTING_BASE_PATH = "Swift-DocC-Example";
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;

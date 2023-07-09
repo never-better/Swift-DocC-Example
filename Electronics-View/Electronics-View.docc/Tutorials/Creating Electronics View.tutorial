@@ -1,0 +1,32 @@
+@Tutorial(time: 1) {
+    @Intro(title: "Electronics View 개념 및 사용법") {
+        Electronics View는 무엇이고 어떻게 사용하는지 알아보는 시간
+        
+        @Image(source: "apple-electronics-set.png", alt: "문짝 이미지")
+    }
+    
+    @Section(title: "개념 및 사용법") {
+        @ContentAndMedia () {
+
+            애플 세트를 손쉽게 사용할 수 있는 ElectronicsView입니다.
+            
+            @Image(source: apple-electronics-set.png, alt: "세트 이미지")
+        }
+        
+        @Steps {
+            @Step {
+                ElectronicsView는 enum타입 Electronics를 인자로 받습니다. Electronics는 총 4개의 케이스가 있습니다. 각각의 케이스는 전자기기 조합으로 이루어져있습니다.
+                
+                @Image(source: apple-set-1.png, alt: "set 1")
+            }
+            
+            @Step {
+                ElectronicsView를 생성할 때 원하는 세트 번호를 인자로 넣어줍니다.
+                
+                @Code(name: "ExampleView.swift", file: 01-creating-01-01.swift) {
+                    @Image(source: apple-set-1.png, alt: "set 1")
+                }
+            }
+        }
+    }
+}

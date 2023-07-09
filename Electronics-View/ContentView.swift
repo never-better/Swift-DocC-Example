@@ -1,19 +1,22 @@
-//
-//  ContentView.swift
-//  Electronics-View
-//
-//  Created by youtak on 2023/07/04.
-//
-
 import SwiftUI
 
+/// Content View임
+/// 
+/// `ElectronicsView`를 생성하고 사용하는 View임
+/// 
+/// ``` swift
+/// ElectronicsView(electronics: .one)
+/// ```
 struct ContentView: View {
+
     var body: some View {
         VStack {
-            Image(systemName: "globe")
-                .imageScale(.large)
-                .foregroundStyle(.tint)
-            Text("Hello, world!")
+            
+            ForEach(Electronics.allCases, id: \.self) { electronic in
+                ElectronicsView(electronics: .one)
+                    .padding()
+            }
+            
         }
         .padding()
     }
